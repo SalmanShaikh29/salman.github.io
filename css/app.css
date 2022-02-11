@@ -1,0 +1,127 @@
+.main-background {
+    background: black;
+}
+.text-white {
+    color: white;
+}
+/* Header Style */
+.soul-achieve {
+    color: white;
+    font-size: 15mm;
+    font-family: The Nautigal;
+}
+
+.sentence {
+    color: yellow;
+    margin-top: -20px;
+    font-family: Luxurious Roman;
+}
+/* Header Style */
+
+/* Menu Style */
+@media screen and (max-width: 39.9375em) {
+    .no-js .top-bar {
+      display: none;
+    }
+}
+  
+@media print, screen and (min-width: 40em) {
+    .no-js .title-bar {
+      display: none;
+    }
+}
+  
+[data-sticky] {
+    width: 100%;
+}
+  
+.sticky-container {
+    z-index: 5;
+}
+/* Menu Style */
+
+/* Active Menu Style */
+.menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+}
+  
+.menu-hover-lines li a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 1rem;
+}
+  
+.menu-hover-lines li:first-child a {
+    margin-left: 0;
+}
+  
+.menu-hover-lines li.active > a {
+    background-color: transparent;
+}
+  
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: #1779ba;
+    width: 0;
+}
+  
+.menu-hover-lines a::before {
+    top: 0;
+    left: 0;
+}
+  
+.menu-hover-lines a::after {
+    bottom: 0;
+    right: 0;
+}
+  
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+}
+  
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+    width: 100%;
+}
+/* Active Menu Style */
+
+/* Blog Style */
+.blog-title {
+    color: red;
+    border-bottom: 6px solid green;
+    background-color: lightgreen;
+}
+/* Blog Style */
+
+/* Copyright Syle */
+.copyright {
+    color: white;
+    background: #04AA6D;
+}
+/* Copyright Style */
+
+/* Icons Style */
+.icon {
+    color: white;
+    padding: 6px;
+}
+/* Icons Style */
+  
+/* Feedback Style */
+.form-background {
+    background: cadetblue;
+}
+/* Feedback Style */
